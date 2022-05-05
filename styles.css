@@ -509,6 +509,7 @@ footer img {
 #profile-link {
     display: block;
     padding-top: 1rem;
+    width: 10rem;
 }
 
 footer:last-child {
