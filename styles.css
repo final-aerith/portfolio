@@ -332,7 +332,7 @@ a:focus {
 
     40%,
     80% {
-        width: 9ch
+        width: 9.2ch
     }
 
     100% {
@@ -497,7 +497,7 @@ footer a {
 }
 
 footer img {
-    max-width: 100rem;
+    max-width: 10rem;
     width: 100%;
 }
 
@@ -509,7 +509,6 @@ footer img {
 #profile-link {
     display: block;
     padding-top: 1rem;
-    width: 10rem;
 }
 
 footer:last-child {
