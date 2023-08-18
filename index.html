@@ -1,174 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-</head>
+    <link rel="stylesheet" href="styles-new.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+  </head>
 
-<body>
-
+  <body>
     <!-- START HEADER -->
-    
+
     <header id="navbar">
-        <div class="logo">
-            <a href="index.html">Karen Avila</a>
-        </div>
-        <input type="checkbox" class="nav-toggler" id="nav-toggler">
-        <label for="nav-toggler" class="nav-toggler-label"><span></span></label>
-        <nav>
-            <ul class="navbar">
-                <li>
-                    <a href="#welcome-section">About</a>
-                </li>
-                <li>
-                    <a href="#portfolio">Portfolio</a>
-                </li>
-                <li class="button-wrapper">
-                    <a class="button button-sec" href="mailto:nerak.aliva@gmail.com">
-                        <svg class="email" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
-                            </path>
-                        </svg> Contact me
-                    </a>
-                </li>
-            </ul>
-        </nav>
+      <div class="logo">
+        <a href="index.html">Karen Avila</a>
+      </div>
+      <input type="checkbox" class="nav-toggler" id="nav-toggler" />
+      <label for="nav-toggler" class="nav-toggler-label"><span></span></label>
+      <nav>
+        <ul class="navbar">
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#portfolio">Portfolio</a>
+          </li>
+          <li class="button-wrapper">
+            <a class="button button-sec" href="mailto:nerak.aliva@gmail.com"
+              >Contact me</a
+            >
+          </li>
+        </ul>
+      </nav>
     </header>
     <!-- END HEADER -->
 
-
     <!-- START ABOUT SECTION -->
-    <section class="about" id="welcome-section">
-        <div>
-            <h1>Hello, I Am </h1>
-            <h2 class="dynamic-text">Karen Avila</h2>
-            <h3>I am a Web Developer under construction</h3>
-            <ul class="about-contact">
-                <li><a class="button button-about" href="mailto:nerak.aliva@gmail.com">
-                        <svg class="email" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
-                            </path>
-                        </svg>
-                        Contact me
-                    </a></li>
-                <li><a class="underline" href="#portfolio">See My Work</a></li>
-            </ul>
-        </div>
-
+    <section class="about" id="about">
+      <div>
+        <h1>Hello, I am</h1>
+        <h2 class="dynamic-text">Karen Avila</h2>
+        <h3>A Web Developer under construction</h3>
+        <ul class="about-contact">
+          <li>
+            <a class="button button-about" href="mailto:nerak.aliva@gmail.com">
+              <i class="fa-solid fa-envelope"></i> Contact me
+            </a>
+          </li>
+          <li><a class="underline" href="#portfolio">See My Work</a></li>
+        </ul>
+      </div>
     </section>
     <!-- END ABOUT SECTION -->
 
     <!-- START PORTFOLIO SECTION -->
-    <div id="portfolio">
-        <h5>Creative Works</h5>
-        <h4>Check My Portfolio</h4>
-    </div>
-
     <section class="portfolio">
-        <div id="projects">
-            <div class="project-tile">
-                <a class="card-link" href="https://codepen.io/FinalAerith/full/gOayzEV">
-                    <div class="card-info">
-                        <p class="title">Tribute Page</p>
-                        <p class="project">Free Code Camp Project</p>
-                    </div>
-                    <div class="card-img">
-                        <img src="https://github.com/final-aerith/portfolio/blob/main/images/tribute-ffvii-aerith-1000.png?raw=true"
-                            alt="Tribute page" width="1000px" height="562px">
-                    </div>
-                </a>
+      <div id="portfolio">
+        <!-- <img src="images/polygon.svg" alt=" " /> -->
+        <h4>My Portfolio</h4>
+      </div>
+      <div class="projects">
+        <div class="project-tile">
+          <a
+            class="card-link"
+            href="https://final-aerith.github.io/responsive-club-website/"
+            target="_blank"
+          >
+            <div class="card-info">
+              <p class="title">Responsive Club Website</p>
+              <p class="project">HTML | CSS</p>
             </div>
-
-            <div class="project-tile">
-                <a class="card-link" href="https://codepen.io/FinalAerith/full/LYyJmoW">
-                    <div class="card-info">
-                        <p class="title">Survey Form</p>
-                        <p class="project">Free Code Camp Project</p>
-                    </div>
-                    <div class="card-img">
-                        <img src="https://github.com/final-aerith/portfolio/blob/main/images/music-head.png?raw=true"" alt="
-                            Tribute page" width="1000px" height="562px">
-                    </div>
-                </a>
+            <div class="card-img">
+              <img
+                src="images/responsive-club-website.png"
+                alt="Responsive Club Website"
+                width="1000px"
+                height="600px"
+              />
             </div>
-            <div class="project-tile">
-                <a class="card-link" href="https://codepen.io/FinalAerith/full/powJBpP">
-                    <div class="card-info">
-                        <p class="title">Product Landing</p>
-                        <p class="project">Free Code Camp Project</p>
-                    </div>
-                    <div class="card-img">
-                        <img src="https://github.com/final-aerith/portfolio/blob/main/images/product-landing.png?raw=true"
-                            alt="Tribute page" width="1000px" height="562px">
-                    </div>
-                </a>
-            </div>
-
-            <div class="project-tile">
-                <a class="card-link" href="https://codepen.io/FinalAerith/full/QWaQmpZ">
-                    <div class="card-info">
-                        <p class="title">Technical Documentation Page</p>
-                        <p class="project">Free Code Camp Project</p>
-                    </div>
-                    <div class="card-img">
-                        <img src="https://github.com/final-aerith/portfolio/blob/main/images/technical-doc.png?raw=true"
-                            alt="Tribute page" width="1000px" height="562px">
-                    </div>
-                </a>
-            </div>
+          </a>
         </div>
+
+        <div class="project-tile">
+          <a
+            class="card-link"
+            href="https://final-aerith.github.io/company-homepage-with-flexbox/"
+            target="_blank"
+          >
+            <div class="card-info">
+              <p class="title">Company homepage</p>
+              <p class="project">HTML | CSS</p>
+            </div>
+            <div class="card-img">
+              <img
+                src="images/company-page.png"
+                alt="Company homepage"
+                width="1000px"
+                height="600px"
+              />
+            </div>
+          </a>
+        </div>
+
+        <div class="project-tile">
+          <a
+            class="card-link"
+            href="https://codepen.io/FinalAerith/full/powJBpP"
+            target="_blank"
+          >
+            <div class="card-info">
+              <p class="title">Product Landing Page</p>
+              <p class="project">HTML | CSS</p>
+            </div>
+            <div class="card-img">
+              <img
+                src="images/product-landing.png"
+                alt="Product Landing Page"
+                width="1000px"
+                height="600px"
+              />
+            </div>
+          </a>
+        </div>
+
+        <div class="project-tile">
+          <a
+            class="card-link"
+            href="https://final-aerith.github.io/css-cheatsheet/"
+            target="_blank"
+          >
+            <div class="card-info">
+              <p class="title">CSS Cheatsheet</p>
+              <p class="project">HTML | CSS</p>
+            </div>
+            <div class="card-img">
+              <img
+                src="images/css-cheatsheet.png"
+                alt="CSS Cheatsheet"
+                width="1000px"
+                height="600px"
+              />
+            </div>
+          </a>
+        </div>
+
+        <div class="project-tile">
+          <a
+            class="card-link"
+            href="https://final-aerith.github.io/password-generator/"
+            target="_blank"
+          >
+            <div class="card-info">
+              <p class="title">Password Generator</p>
+              <p class="project">HTML | CSS | JavaScript</p>
+            </div>
+            <div class="card-img">
+              <img
+                src="images/password-generator.png"
+                alt="Password Generator"
+                width="1000px"
+                height="600px"
+              />
+            </div>
+          </a>
+        </div>
+
+        <div class="project-tile">
+          <a
+            class="card-link"
+            href="https://final-aerith.github.io/unit-converter/"
+            target="_blank"
+          >
+            <div class="card-info">
+              <p class="title">Unit Converter</p>
+              <p class="project">HTML | CSS | JavaScript</p>
+            </div>
+            <div class="card-img">
+              <img
+                src="images/unit-converter.png"
+                alt="Unit Converter"
+                width="1000px"
+                height="600px"
+              />
+            </div>
+          </a>
+        </div>
+      </div>
     </section>
     <!-- END PORTFOLIO SECTION-->
 
     <!-- START CONTACT SECTION -->
     <section class="contact" id="contact">
-        <div class="contact-wrapper">
-            <h6>get in touch</h6>
-            <div class="questions">
-                <p>Any Questions?</p>
-                <p> Feel Free to Contact</p>
-            </div>
-            <a class="button" href="mailto:nerak.aliva@gmail.com">
-                <svg class="email" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
-                    </path>
-                </svg> Contact me</a>
+      <div class="contact-wrapper">
+        <h4>get in touch</h4>
+        <div class="contact-info">
+          <p>
+            Feel free to reach out if you have any questions or you'd like to
+            discuss potential opportunities
+          </p>
         </div>
+        <a class="button" href="mailto:nerak.aliva@gmail.com">
+          <i class="fa-solid fa-envelope"></i> Contact me
+        </a>
+      </div>
     </section>
     <!-- END CONTACT SECTION -->
 
     <!-- START FOOTER SECTION -->
     <footer>
-        <ul class="footer-nav">
-            <li><a href="#welcome-section">About</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="mailto:nerak.aliva@gmail.com">Contact</a></li>
-        </ul>
+      <ul class="footer-nav">
+        <li><a href="#welcome-section">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="mailto:nerak.aliva@gmail.com">Contact</a></li>
+      </ul>
 
-        <div class="profile-link">
-            <p>Check my profile:</p>
-            <a id="profile-link" href="https://www.freecodecamp.org/finalaerith" target="_blank"><img
-                    src="https://github.com/final-aerith/portfolio/blob/main/images/freecodecamp.png?raw=true"
-                    alt="free code camp"></a>
-            <!--<li id="profile-link"><a href="#about"><img src="Images/github.svg" alt="github"></a></li> -->
-        </div>
-        <div>
-            <p>© All Right Reserved</p>
-        </div>
-
+      <div class="profile-link">
+        <a href="https://www.freecodecamp.org/finalaerith" target="_blank"
+          ><i class="fa-brands fa-free-code-camp"></i
+        ></a>
+        <a href="https://github.com/final-aerith" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+      </div>
+      <div>
+        <p>© All Right Reserved</p>
+      </div>
     </footer>
     <!-- END FOOTER SECTION -->
-</body>
-
+  </body>
 </html>
